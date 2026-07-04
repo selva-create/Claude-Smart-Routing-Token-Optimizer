@@ -1,0 +1,20 @@
+{
+  "name": "claude-smart-routing-token-optimizer",
+  "version": "1.0.0",
+  "description": "Zero-cost local intent routing, sliding-window history, prompt-cache breakpoints, and budget enforcement for the Anthropic Claude API.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "dotenv": "^16.4.5",
+    "tiktoken": "^1.0.15"
+  },
+  "license": "MIT"
+}
