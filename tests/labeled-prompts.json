@@ -1,0 +1,65 @@
+[
+  { "prompt": "What's the capital of France?", "expected": "generalEnquiry" },
+  { "prompt": "Explain how photosynthesis works", "expected": "generalEnquiry" },
+  { "prompt": "Give me some fun facts about octopuses", "expected": "generalEnquiry" },
+  { "prompt": "What time zone is Sydney in?", "expected": "generalEnquiry" },
+
+  { "prompt": "Generate an image of a mountain sunset", "expected": "creatingImage" },
+  { "prompt": "Create a picture of a robot playing chess", "expected": "creatingImage" },
+  { "prompt": "Draw an illustration of a cat astronaut", "expected": "creatingImage" },
+  { "prompt": "Make an image showing a futuristic city skyline", "expected": "creatingImage" },
+
+  { "prompt": "Design a landing page for a bakery", "expected": "websiteDesign" },
+  { "prompt": "Build a website layout for a portfolio site", "expected": "websiteDesign" },
+  { "prompt": "I need a webpage design for my dog walking business", "expected": "websiteDesign" },
+  { "prompt": "Mock up a design for a one-page pricing website", "expected": "websiteDesign" },
+
+  { "prompt": "Build a React web app for tracking expenses", "expected": "codeDevWebApp" },
+  { "prompt": "Create a Node.js backend API for a todo list", "expected": "codeDevWebApp" },
+  { "prompt": "Help me build a full-stack app with Express and Postgres", "expected": "codeDevWebApp" },
+  { "prompt": "Write a REST API endpoint for user authentication", "expected": "codeDevWebApp" },
+
+  { "prompt": "Refactor this function and remove dead code", "expected": "yagniReview" },
+  { "prompt": "Apply YAGNI to this module, it feels over-engineered", "expected": "yagniReview" },
+  { "prompt": "Clean up this code, there's a lot of speculative abstraction", "expected": "yagniReview" },
+  { "prompt": "Do a lazy review of this file and simplify it", "expected": "yagniReview" },
+
+  { "prompt": "Write documentation for this API", "expected": "creatingDocumentation" },
+  { "prompt": "Draft a README for my open-source project", "expected": "creatingDocumentation" },
+  { "prompt": "Generate docstrings for these Python functions", "expected": "creatingDocumentation" },
+  { "prompt": "Write a changelog for version 2.0", "expected": "creatingDocumentation" },
+
+  { "prompt": "Build an iOS app for tracking workouts", "expected": "mobileAppDev" },
+  { "prompt": "Create a React Native app for grocery lists", "expected": "mobileAppDev" },
+  { "prompt": "Help me write a Flutter mobile app for recipes", "expected": "mobileAppDev" },
+  { "prompt": "Build an Android app using Kotlin", "expected": "mobileAppDev" },
+
+  { "prompt": "Rephrase this prompt to be clearer", "expected": "structuringPrompt" },
+  { "prompt": "Restructure my prompt so it gets better answers", "expected": "structuringPrompt" },
+  { "prompt": "Rewrite this prompt, it's too vague", "expected": "structuringPrompt" },
+
+  { "prompt": "Design a logo for my coffee shop", "expected": "logoDesigns" },
+  { "prompt": "Make a logo for a tech startup called Nimbus", "expected": "logoDesigns" },
+  { "prompt": "I need a logo concept for a bakery", "expected": "logoDesigns" },
+
+  { "prompt": "Make flashcards from this chapter on cell biology", "expected": "documentReviewFlashcards" },
+  { "prompt": "Review this document and summarize the key points", "expected": "documentReviewFlashcards" },
+  { "prompt": "Create study cards for these vocabulary words", "expected": "documentReviewFlashcards" },
+  { "prompt": "Summarize this PDF into key takeaways", "expected": "documentReviewFlashcards" },
+
+  { "prompt": "Upgrade my npm dependencies to the latest version", "expected": "packageUpgrades" },
+  { "prompt": "Update the pip packages in requirements.txt", "expected": "packageUpgrades" },
+  { "prompt": "Bump the React library version in package.json", "expected": "packageUpgrades" },
+
+  { "prompt": "I'm getting a stack trace: TypeError undefined is not a function", "expected": "errorTroubleshooting" },
+  { "prompt": "My build keeps failing with a segfault", "expected": "errorTroubleshooting" },
+  { "prompt": "This script is crashing on startup, here's the traceback", "expected": "errorTroubleshooting" },
+  { "prompt": "The app won't compile after I added this dependency", "expected": "errorTroubleshooting" },
+
+  { "prompt": "Design a database schema for a multi-tenant SaaS", "expected": "dbArchitecture" },
+  { "prompt": "Help me normalize this Postgres table structure", "expected": "dbArchitecture" },
+  { "prompt": "What indexing strategy should I use for this MySQL table", "expected": "dbArchitecture" },
+
+  { "prompt": "How should I organize related tables so lookups stay fast?", "expected": "dbArchitecture", "note": "hard case: no schema/database/index keyword, likely misclassified" },
+  { "prompt": "My code has gotten pretty messy, can you make it leaner?", "expected": "yagniReview", "note": "hard case: no refactor/cleanup/simplify keyword, likely misclassified" }
+]
